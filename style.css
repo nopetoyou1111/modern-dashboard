@@ -1,0 +1,39 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background: black;
+}
+.btn{
+    color:black;
+    border:black;
+    border:1px solid black;
+
+    text-align: center;
+    position: absolute;
+    top:65%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+a{
+    text-decoration:none;
+}
+.datetime{
+    color:white;
+    text-align: center;
+    position: absolute;
+    top:60%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #ffffff;
+    font-size: 60px;
+    font-family: Orbitron;
+    letter-spacing: 7px;
+}
